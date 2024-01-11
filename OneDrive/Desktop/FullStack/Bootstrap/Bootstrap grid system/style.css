@@ -1,0 +1,12 @@
+.width{
+    border-radius: 50px;
+}
+.width1{
+    width: 600px;
+    border-radius: 12px;
+    margin: 50px auto;
+    
+}
+.logo{
+    border-radius: 50%;
+}
