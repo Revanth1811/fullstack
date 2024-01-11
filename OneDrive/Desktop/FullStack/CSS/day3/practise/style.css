@@ -1,0 +1,62 @@
+.login{
+    border:1px solid lightgray;
+    background-color: azure;
+    border-radius: 14px;
+    width:300px;
+    margin: 150px auto;
+    padding:10px;
+    
+    
+}
+.in{
+    width:100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+
+}
+.btn{
+    padding:8px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    display:flex;
+}
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;;
+}
+.img{
+    height:50px;
+    border-radius: 30%;
+   
+}
+.logo{
+    display:flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup{
+    border:1px solid lightgray;
+    border-radius: 14px;
+    width: 350px;
+    padding:10px;
+    margin:120px auto;
+    background-color: azure;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
