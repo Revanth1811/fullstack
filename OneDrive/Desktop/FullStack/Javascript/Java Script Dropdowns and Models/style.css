@@ -1,0 +1,95 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.bgimg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.shade{
+    background-color: rgba(59, 57, 57, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.flex{
+    position: absolute;
+    top: 0;
+    width: 90%;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 900px; */   
+}
+.language{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.718);
+    background-color: transparent;
+    color: rgb(48, 46, 46);
+    /* cursor: pointer; */
+}
+.login{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    color: rgb(48, 46, 46);
+    /* cursor: pointer; */
+}
+#login-Container{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    padding: 10px;
+    width: 340px;
+    height: 340px;
+    background-color: rgba(149, 141, 141, 0.53);
+    border-radius: 16px;
+    text-align: center;
+}
+.d-none{
+    display: none !important;
+}
+input{
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background-color:rgba(255, 255, 255, 0.573);
+    color: rgba(0, 0, 0, 0.77);
+    width: 100%;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgba(80, 79, 79, 0.701);
+    color: white;
+    width: 100%;
+    font-size: 16px;
+}
+.Signup{
+    color: rgb(48, 45, 45);
+    font-size: small;
+    margin-top: 20px;
+}
+.cancel{
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 20px;
+    border-radius: 4px;
+    margin-left: 300px;
+}
